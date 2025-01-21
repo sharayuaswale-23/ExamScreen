@@ -112,6 +112,71 @@ const EyeTrackingExam = () => {
           >
             🏁 Start Examination
           </button>
+          {/* <div className="mt-5">
+              <h2 className="text-2xl font-semibold mb-3">Rules and Regulations:</h2>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Stay focused on the screen at all times.</li>
+                <li>Do not switch tabs or minimize the screen.</li>
+                <li>Ensure your webcam is on throughout the exam.</li>
+                <li>You will be disqualified after 5 warnings.</li>
+                <li>Score at least 6 correct answers to pass.</li>
+              </ul>
+            </div> */}
+            {/* <div className="mt-5">
+  <h2 className="text-2xl font-semibold mb-3">📜 Rules and Regulations:</h2> <br/>
+  <ul className="space-y-4 text-center">
+    <li className="flex items-start space-x-3">
+      <span className="text-blue-500 text-lg">✔️</span>
+      <p className="text-gray-700 text-lg">Stay focused on the screen at all times.</p>
+    </li>
+    <li className="flex items-start space-x-3">
+      <span className="text-blue-500 text-lg">✔️</span>
+      <p className="text-gray-700 text-lg">Do not switch tabs or minimize the screen.</p>
+    </li>
+    <li className="flex items-start space-x-3">
+      <span className="text-blue-500 text-lg">✔️</span>
+      <p className="text-gray-700 text-lg">Ensure your webcam is on throughout the exam.</p>
+    </li>
+    <li className="flex items-start space-x-3">
+      <span className="text-blue-500 text-lg">✔️</span>
+      <p className="text-gray-700 text-lg">You will be disqualified after 5 warnings.</p>
+    </li>
+    <li className="flex text-center items-start space-x-3">
+      <span className="text-blue-500 text-lg">✔️</span>
+      <p className="text-gray-700 text-lg">Score at least 6 correct answers to pass.</p>
+    </li>
+  </ul>
+            </div> */}
+
+            <div className="mt-5 flex justify-center">
+  <div className="text-center">
+    <h2 className="text-2xl font-semibold mb-3">📜 Rules and Regulations:</h2>
+    <ul className="space-y-4">
+      <li className="flex items-start space-x-3 justify-center">
+        <span className="text-blue-500 text-lg">✔️</span>
+        <p className="text-gray-700 text-lg">Stay focused on the screen at all times.</p>
+      </li>
+      <li className="flex items-start space-x-3 justify-center">
+        <span className="text-blue-500 text-lg">✔️</span>
+        <p className="text-gray-700 text-lg">Do not switch tabs or minimize the screen.</p>
+      </li>
+      <li className="flex items-start space-x-3 justify-center">
+        <span className="text-blue-500 text-lg">✔️</span>
+        <p className="text-gray-700 text-lg">Ensure your webcam is on throughout the exam.</p>
+      </li>
+      <li className="flex items-start space-x-3 justify-center">
+        <span className="text-blue-500 text-lg">✔️</span>
+        <p className="text-gray-700 text-lg">You will be disqualified after 5 warnings.</p>
+      </li>
+      <li className="flex items-start space-x-3 justify-center">
+        <span className="text-blue-500 text-lg">✔️</span>
+        <p className="text-gray-700 text-lg">Score at least 6 correct answers to pass.</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
         </div>
         
       )}
